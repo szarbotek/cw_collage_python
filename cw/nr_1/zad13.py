@@ -1,0 +1,1 @@
+q=[input("Ulubione daie: ") for _ in range(3)]

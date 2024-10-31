@@ -1,0 +1,1 @@
+print(sum([(lambda key: {"zero": 0, "jeden": 1, "dwa": 2, "trzy": 3, "cztery": 4, "pięć": 5, "sześć": 6, "siedem": 7, "osiem": 8, "dziewięć": 9}.get(key))(i) for i in ["trzy", "sześć"]]))

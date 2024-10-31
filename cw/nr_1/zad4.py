@@ -1,0 +1,1 @@
+print(  "To {} miesięcy. 12".format(int(input("Ile masz lat: "))*12) )

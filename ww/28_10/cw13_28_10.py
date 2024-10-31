@@ -1,0 +1,1 @@
+print( "Pierwszy elem: {}, Ostani elem: {} [{}]".format( *(lambda _: (_[0], _[-1], _[_.__len__()-1]))( [ int(input(f"{i+1} Podaj cyfre? ")) for i in range(0, int(input("Podaj ile chesz wprowadzać cyfr: ")))]) ) )

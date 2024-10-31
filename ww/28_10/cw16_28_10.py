@@ -1,0 +1,1 @@
+print( '-'.join([ (lambda index: ["zero", "jeden", "dwa", "trzy", "cztery", "pięć", "sześć", "siedem", "osiem", "dziewięć"][index])(int(s)) for s in input("Podaj liczbę 4 cyfrową: ")]))

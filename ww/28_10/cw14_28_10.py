@@ -1,0 +1,1 @@
+print("Lista: {}  Ilość unikatów: {}".format(*(lambda l1, l2: (l1, (lambda checksUnic: set(checksUnic).__len__())( l2 )))(  *(lambda _: (_, _.copy()))( [ int(input(f"Prosze podać cyfre {i+1}: ")) for  i in range(0,6)] )  )))

@@ -1,0 +1,1 @@
+print( *[ "\n{} to ,,{}''".format(lc[1], (lambda arr: " ".join(arr))(lc[0])) for lc in [([ (lambda index: ["zero", "jeden", "dwa", "trzy", "cztery", "pięć", "sześć", "siedem", "osiem", "dziewięć"][index])(int(cyfra)) for cyfra in liczba], liczba) for liczba in [input("Podaje liczbę: ") for _ in range(3)]] ] )
