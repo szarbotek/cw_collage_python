@@ -1,0 +1,1 @@
+ja={"imię": , "nazwisko": , "wiek": ,"rodzice": [{"imię": , "nazwisko":, }]
